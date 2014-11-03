@@ -17,10 +17,16 @@ package cn.ac.iie.s3.util;
 
 import java.lang.reflect.Field;
 
+/**
+ * 提供针对Class的操作类
+ * 
+ * @author dayutianfei
+ *
+ */
 public class ClassUtil {
 
   /**
-   * 
+   * 加载某个Class，返回的是类，是new的第一步
    * @param <T>
    * @param className
    * @param instanceOfClass
@@ -40,6 +46,7 @@ public class ClassUtil {
   }
 
   /**
+   * 生成某个类的对象（实例），是new的第二步
    * @param <T>
    * @param clazz
    * @return a new instance of the given class

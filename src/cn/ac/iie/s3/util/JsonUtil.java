@@ -2,6 +2,13 @@ package cn.ac.iie.s3.util;
 
 import net.sf.json.JSONObject;
 
+/**
+ * 提供针对JSON的操作 
+ * 1）主要包括将某个支持序列化的对象转换为JSONObject 
+ * 2）将某个字符串强制转换成某个对象
+ * 
+ * @author dayutianfei
+ */
 public class JsonUtil {
 
 	/**
@@ -12,16 +19,16 @@ public class JsonUtil {
 	 */
 	public static JSONObject beadToJSON(Object bean) {
 		return JSONObject.fromObject(bean);
-
 	}
 
 	/**
 	 * 将jsonStr转换为简单Bean
+	 * 
 	 * @param jsonStr
 	 * @param beanClass
 	 * @return
 	 */
-	public static Object jsonStrToBean(String jsonStr,  Class<?> beanClass) {
+	public static Object jsonStrToBean(String jsonStr, Class<?> beanClass) {
 		return JSONObject.toBean(JSONObject.fromObject(jsonStr), beanClass);
 	}
 
