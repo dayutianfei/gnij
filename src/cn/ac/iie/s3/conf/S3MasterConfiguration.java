@@ -80,7 +80,7 @@ public class S3MasterConfiguration extends S3Configuration {
 	 * 载入默认配置文件
 	 */
 	public S3MasterConfiguration() {
-		super("/dstore.master.properties");
+		super("/s3.master.properties");
 	}
 
 	public S3MasterConfiguration(File file) {

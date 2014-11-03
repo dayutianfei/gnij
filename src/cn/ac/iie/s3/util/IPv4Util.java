@@ -1,6 +1,13 @@
 package cn.ac.iie.s3.util;
 
 import java.net.InetAddress;
+
+/**
+ * IPv4的辅助工作类
+ * 
+ * @author dayutianfei
+ *
+ */
 public class IPv4Util {
 	private final static int INADDRSZ = 4;
 

@@ -5,8 +5,6 @@ public class S3Constant {
 	public static final String _SHARD_DELIMETER = "#";
 	public static final String _MULL = "MULL";
 	public static final String _NULL = "NULL";
-	public static final String _ATATALL_NAME = "@@all";
-	public static final String _MATCHALL = _ATATALL_NAME + ":0";
 
 	public static final String _STAR = "*";
 	public static final String _COLON = ":";

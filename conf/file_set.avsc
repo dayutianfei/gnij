@@ -1,5 +1,5 @@
 {
-        "namespace": "cn.ac.iie.fstore.file.avro",
+        "namespace": "cn.ac.iie.s3.file.avro",
         "type": "record",
         "name": "FilePutSet",
         "fields": [
