@@ -26,5 +26,7 @@
 	<classpathentry kind="lib" path="lib/json/ezmorph-1.0.6.jar"/>
 	<classpathentry kind="lib" path="lib/json/json-20090211.jar"/>
 	<classpathentry kind="lib" path="lib/json/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/gcode/guava-11.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/gcode/guava-r08.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
