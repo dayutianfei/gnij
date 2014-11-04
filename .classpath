@@ -28,7 +28,9 @@
 	<classpathentry kind="lib" path="lib/json/json-20090211.jar"/>
 	<classpathentry kind="lib" path="lib/json/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="lib" path="lib/gcode/guava-11.0.2.jar"/>
-	<classpathentry kind="lib" path="lib/gcode/guava-r08.jar"/>
 	<classpathentry kind="lib" path="lib/junit/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-auth-2.0.0-cdh4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-common-2.0.0-cdh4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/gcode/protobuf-java-2.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

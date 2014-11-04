@@ -118,10 +118,10 @@ public class S3NodeConfiguration extends S3Configuration {
 		return getInt(NODE_RPC_PORT, 20383);
 	}
 
-	public int getMasterRpcPort() {
-		S3MasterConfiguration masterConf = new S3MasterConfiguration();
-		return masterConf.getMasterPort();
-	}
+//	public int getMasterRpcPort() {
+//		S3MasterConfiguration masterConf = new S3MasterConfiguration();
+//		return masterConf.getMasterPort();
+//	}
 	//================================V0.2.5=================================
 	public int getOfflineDeviceCheck() {
 		return getInt(OFFLINE_DEVICE_CHECK, 24);

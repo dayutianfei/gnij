@@ -1,7 +1,7 @@
 package cn.ac.iie.s3.constant;
 
 
-public class S3Constant {
+public class S3CONSTANT {
 	public static final String _SHARD_DELIMETER = "#";
 	public static final String _MULL = "MULL";
 	public static final String _NULL = "NULL";

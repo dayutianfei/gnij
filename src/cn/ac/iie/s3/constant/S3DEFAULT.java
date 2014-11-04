@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 
-public class S3Default {
+public class S3DEFAULT {
 	/**
 	 * 生命周期整点后开始间隔时间--秒
 	 */
