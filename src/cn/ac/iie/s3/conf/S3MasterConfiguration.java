@@ -45,6 +45,8 @@ public class S3MasterConfiguration extends S3Configuration {
 	// RPC配置项
 	public final static String MASTER_RPC_PORT = "master.rpc.port"; // 20384 default
 	public final static String MASTER_RPC_HANDLER_COUNT = "master.rpc.handler.count"; // 2000 default
+	// COMMON配置项
+	public final static String MASTER_SAFE_TIME = "master.safetime";
 
 	/**
 	 * 载入默认配置文件
@@ -99,6 +101,10 @@ public class S3MasterConfiguration extends S3Configuration {
 
 	public int getMasterHandlerCount() {
 		return getInt(MASTER_RPC_HANDLER_COUNT, 2000);
+	}
+	
+	public int getMasterSafeTime() {
+		return getInt(MASTER_SAFE_TIME, 300);
 	}
 
 	public static void main(String[] args) {

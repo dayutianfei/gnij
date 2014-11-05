@@ -71,6 +71,10 @@ public class NetUtil {
 		return Long.toHexString(ipLong);
 	}
 	
+	/**
+	 * 获取本机所有网卡配置信息
+	 * @return
+	 */
 	private static Collection<InetAddress> getAllHostAddress() {   
         try {   
             Enumeration<NetworkInterface> networkInterfaces = NetworkInterface.getNetworkInterfaces();   
