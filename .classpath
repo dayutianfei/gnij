@@ -32,5 +32,6 @@
 	<classpathentry kind="lib" path="lib/hadoop/hadoop-auth-2.0.0-cdh4.3.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/hadoop-common-2.0.0-cdh4.3.0.jar"/>
 	<classpathentry kind="lib" path="lib/gcode/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/mysql/mysql-connector-java-5.1.24-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
