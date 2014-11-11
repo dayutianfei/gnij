@@ -67,7 +67,7 @@ public class MasterRPCServer {
 
 	private synchronized void becomePrimaryOrSecondaryMaster() {
 		if (isShutdown()) {
-			LOG.error("Master is shutdown aready.");
+			LOG.error("Master is shutdown already.");
 			return;
 		}
 		try {
